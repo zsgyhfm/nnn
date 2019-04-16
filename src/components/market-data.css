@@ -1,0 +1,30 @@
+.market-data {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.market-data__title {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.3;
+}
+.market-data__number {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.3;
+}
+.market-data__number.red {
+    color: #f44336;
+}
+.market-data__number.green {
+    color: #2ee004;
+}
+.market-data__range {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 1.3;
+}
+.market-data__range span {
+    display: inline-block;
+    padding: 0 4px;
+}

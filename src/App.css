@@ -1,0 +1,63 @@
+.am-button-primary{
+    background: rgb(255, 69, 0) !important;
+    border-color: rgb(255, 69, 0) !important;
+}
+
+.am-picker-popup-item {
+    color: #ff4500 !important;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 2dppx) {
+    html:not([data-scale]) .am-button-primary::before {
+        border: 1px solid #ff4500 !important;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 2dppx) {
+    html:not([data-scale]) .am-button-ghost::before {
+        border: 1px solid #ff4500 !important;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 2dppx) {
+    html:not([data-scale]) .am-button-ghost.am-button-active::before {
+        border: 1px solid rgba(255, 69, 0, 0.6) !important;
+    }
+}
+
+.am-list-item .am-input-extra {
+    max-height: 100% !important;
+}
+
+.am-navbar {
+    background-color: #ff4500 !important;
+}
+.weui-tabbar:before {
+    border-top-color: #f7f7fa !important;
+}
+.am-navbar-right a {
+    color: #fff !important;
+}
+.am-list-item .am-list-line .am-list-content {
+    font-size: 16px !important;
+}
+.am-list-item .am-input-label {
+    font-size: 16px !important;
+}
+.am-list-item .am-input-control input {
+    font-size: 16px !important;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(10deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

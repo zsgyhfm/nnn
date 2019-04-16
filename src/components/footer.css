@@ -1,0 +1,27 @@
+footer.tabBar {
+  background-color: #26292f;
+  padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+footer.tabBar a {
+  color: #939496;
+  display: block;
+}
+
+footer.tabBar .am-flexbox-item {
+  text-align: center;
+}
+
+footer.tabBar i.iconfont {
+  font-size: 18px;
+}
+
+footer.tabBar p {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+}
